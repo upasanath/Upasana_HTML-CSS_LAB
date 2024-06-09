@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+
+}
+video {
+    position: fixed;
+}
+div {
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 40px
+}
+input {
+    width: 300px;
+    padding: 10px;
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 10px;
+}
+input:focus {
+    background-color: rgba(162, 219, 245, 0.35);
+    color: white;
+    outline: none;
+}
+button {
+    color: white;
+    background-color: #AF66F3;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 20px;
+    padding: 4px;
+    width: 90px;
+}

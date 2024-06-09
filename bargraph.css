@@ -1,0 +1,59 @@
+bargrapgh.css
+main {
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    background-color: #F5F5F5;
+}
+section {
+    display: inline-block;
+}
+p {
+    padding-left: 25px;
+}
+article {
+    width: 40px;
+    height: 300px;
+    margin: 20px;
+    background-color: #CAC6C0;
+}
+h1 {
+    text-align: center;
+}
+#bar1 {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    animation-name: barPlot1;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+
+}
+@keyframes barPlot1 {
+    0% {height: 100%; background-color: white;}
+    100% {height: 70%; background-color: white;}
+}
+#bar2 {
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    animation-name: barPlot2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes barPlot2 {
+    0% {height: 100%; background-color: white;}
+    100% {height: 60%; background-color: white;}
+}
+#bar3 {
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    animation-name: barPlot3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes barPlot3 {
+    0% {height: 100%; background-color: white;}
+    100% {height: 20%; background-color: white;}
+}
